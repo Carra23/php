@@ -1,2 +1,11 @@
 Already up to date.
 Already up to date.
+[main dc7f854] Sync automatico 06/10/2026 11:15:11,00
+ 6 files changed, 105 insertions(+), 49 deletions(-)
+ create mode 100644 UT1_PHP/Practica1/agenda.php
+ create mode 100644 UT1_PHP/Practica1/imprimir.php
+ create mode 100644 UT1_PHP/Practica1/nuevocontacto.php
+ create mode 100644 UT1_PHP/Practica1/vaciar.php
+ create mode 100644 sync.log
+To https://github.com/Carra23/php.git
+   bf0117a..dc7f854  main -> main
