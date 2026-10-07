@@ -9,13 +9,14 @@
     if(isset($_POST["enviar"])){
         regContacto();
     }
-    if(isset($_POST["vaciar"])){
+    if(isset($_GET["vaciar"])){
         vaciarAgenda();
     }
 
     imprimir();
 ?>
 
+<br>
 <div>
     <form method="POST" action="agenda.php">
         <h1>Nuevo contacto</h1>
@@ -27,12 +28,14 @@
         <br>
         <label for="localidad">Localidad:</label>
         <input type="string" id = "localidad" name = "localidad">
+        <br>
         <button type="submit" id="enviar" name="enviar">Enviar</button>
+    </form>
 </div>
 <br>
 <div>
     <h3>Vaciar agenda</h3>
-    <form action="agenda.php" method="POST">
-            <button type="submit" id="vaciar" name="vaciar">Vaciar agenda</button>
+    <form action="agenda.php?vaciar=0" method="GET">
+        <button type="submit" id="vaciar" name="vaciar" value = "0">Vaciar agenda</button>
     </form>
 </div>

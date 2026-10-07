@@ -9,3 +9,11 @@ Already up to date.
  create mode 100644 sync.log
 To https://github.com/Carra23/php.git
    bf0117a..dc7f854  main -> main
+[main 5f1136f] Sync automatico 06/10/2026 14:27:21,01
+ 2 files changed, 9 insertions(+)
+ create mode 100644 UT1_PHP/Practica1/AgendaJoseAngelCarralero.zip
+To https://github.com/Carra23/php.git
+   dc7f854..5f1136f  main -> main
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+Already up to date.
+Already up to date.

@@ -35,7 +35,7 @@
                 if(isset($_SESSION["usuarios"][$user])){
                     if($_SESSION["usuarios"][$user] == $pass){
                         $_SESSION["usuariologin"] = $user;
-                        header("Location: agenda.php");
+                        header("Location: agenda.php?vaciar=1");
                     }else{
                         echo "Contraseña incorrecta";
                     }
