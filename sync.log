@@ -61,3 +61,21 @@ To https://github.com/Carra23/php.git
 Already up to date.
 Already up to date.
 Already up to date.
+[main d52abcf] Sync automatico 15/10/2026 14:25:02,28
+ 13 files changed, 101 insertions(+), 18 deletions(-)
+ delete mode 100644 UT3_PHP/EjerClase/ejer1/Ejer1.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.1/ejer1/Ejer1.php
+ rename UT3_PHP/EjerClase/{ => hoja3.1}/ejer1/index.php (100%)
+ rename UT3_PHP/EjerClase/{ => hoja3.1}/ejer7/index.php (100%)
+ rename UT3_PHP/EjerClase/{ => hoja3.1}/ejer7/inventario.php (100%)
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer1/Deportista.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer1/Persona.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer1/Saludable.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer1/index.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer4/Autenticable.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer4/Registrable.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer4/Usuario.php
+To https://github.com/Carra23/php.git
+   df9c2c7..d52abcf  main -> main
+Already up to date.
+Already up to date.

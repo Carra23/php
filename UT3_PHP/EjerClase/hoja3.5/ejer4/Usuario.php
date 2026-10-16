@@ -5,6 +5,19 @@
             private $contraseña,
         ){}
 
+        public function registrarUsuario($user, $pass){
+            $this->usuario = $user;
+            $this->contraseña = $pass;
+        }
+
+        public function iniciarSesion($user, $pass){
+            if($this->usuario == $user && $this->contraseña == $pass){
+                echo "<p>Has accedido al usuario</p>";
+            }else{
+                echo "<p>Datos incorrectos</p>";
+            }
+        }
+
         public function getUsuario(){
             echo "<p>$this->usuario</p>";
         }
