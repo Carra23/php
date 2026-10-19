@@ -79,3 +79,13 @@ To https://github.com/Carra23/php.git
    df9c2c7..d52abcf  main -> main
 Already up to date.
 Already up to date.
+[main 966af20] Sync automatico 16/10/2026 14:25:01,83
+ 7 files changed, 143 insertions(+)
+ create mode 100644 UT3_PHP/EjerClase/hoja3.6/Bicicleta.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.6/Camion.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.6/Coche.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.6/Vehiculo.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.6/index.php
+To https://github.com/Carra23/php.git
+   d52abcf..966af20  main -> main
+Already up to date.
