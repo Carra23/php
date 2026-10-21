@@ -96,3 +96,10 @@ To https://github.com/Carra23/php.git
 Already up to date.
 Already up to date.
 fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+[main 94c63d0] Sync automatico 20/10/2026 14:25:01,90
+ 2 files changed, 7 insertions(+)
+ create mode 100644 UT3_PHP/EjerClase/EjerT3JoseAngel.zip
+To https://github.com/Carra23/php.git
+   e39d1fe..94c63d0  main -> main
+Already up to date.
+Already up to date.
