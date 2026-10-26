@@ -9,6 +9,10 @@
             protected $superficie
         ){}
 
+        public function insertar_vivienda($vivienda){
+            array_push($_SESSION["viviendas"], $vivienda);
+        }
+
         public function eliminar_primera(): Vivienda{
             array_shift($_SESSION['viviendas']);
         }

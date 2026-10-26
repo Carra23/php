@@ -122,3 +122,13 @@ Already up to date.
 Already up to date.
 Already up to date.
 fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+[main a8b9dac] Sync automatico 26/10/2026 14:25:01,75
+ 7 files changed, 198 insertions(+)
+ create mode 100644 UT3_PHP/Practica/Clases/Hipoteca.php
+ create mode 100644 UT3_PHP/Practica/Clases/ListaViviendas.php
+ create mode 100644 UT3_PHP/Practica/Clases/Vivienda.php
+ create mode 100644 UT3_PHP/Practica/Clases/ViviendaAlquiler.php
+ create mode 100644 "UT3_PHP/Practica/UT3. Pra\314\201ctica 2627 Vivienda.pdf"
+ create mode 100644 UT3_PHP/Practica/index.php
+To https://github.com/Carra23/php.git
+   6158af7..a8b9dac  main -> main

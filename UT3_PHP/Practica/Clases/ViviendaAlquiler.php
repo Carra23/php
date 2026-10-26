@@ -23,10 +23,6 @@
             }
         }
 
-        public function insertar_vivienda($vivienda){
-            array_push($_SESSION["viviendas"], $vivienda);
-        }
-
 
     }
 ?>
