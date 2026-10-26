@@ -111,3 +111,14 @@ To https://github.com/Carra23/php.git
 Already up to date.
 Already up to date.
 Already up to date.
+[main 6158af7] Sync automatico 22/10/2026 14:25:02,07
+ 4 files changed, 43 insertions(+)
+ create mode 100644 UT3_PHP/EjerClase/Ejer3.12/Libro.php
+ create mode 100644 UT3_PHP/EjerClase/Ejer3.12/Serializable.php
+ create mode 100644 UT3_PHP/EjerClase/Ejer3.12/index.php
+To https://github.com/Carra23/php.git
+   d68c9c5..6158af7  main -> main
+Already up to date.
+Already up to date.
+Already up to date.
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
