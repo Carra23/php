@@ -1,26 +1,39 @@
-<form id="principal" action="index.php" method="post">
+<form id="principal" method="post">
     <label for="tipo">Selecciona el tipo de vivienda</label>
     <select name="tipo" id="tipo" form="principal">
         <option value="alquiler">Alquiler</option>
         <option value="compra">Casa comprada</option>
         <option value="propia">Casa propia construida</option>
     </select>
-    <button type="submit" name="enviar" id="enviar" >Enviar</button>
+    <button type="submit" name="enviar" id="enviar">Enviar</button>
+    <button type="submit" name="imprimir" id="imprimir">Imprimir</button>
+    <button type="submit" name="borrar" id="borrar">Borrar 1º</button>
+    <input type="checkbox" name="orden" id="orden"/>
+    <label for="orden">Orden Coste Total</label>
 </form>
 
 
-<?php
+<?php    
     require_once ('./Clases/ViviendaAlquiler.php');
+    require_once ('./Clases/ViviendaCompra.php');
+    require_once ('./Clases/ViviendaPropia.php');
+    require_once ('./Clases/ColeccionViviendas.php');
+    session_start();
+
+    $coleccion = new ColeccionViviendas();
+    if(!isset($_SESSION['viviendas']) && !isset($_SESSION['contador'])){
+        $_SESSION["contador"] = 1;
+        $_SESSION["viviendas"] = [];
+    }
 
     if(isset($_POST["enviar"])){
-        $_SESSION["viviendas"] = [];
         switch ($_POST['tipo']) {
             case 'alquiler':
-                    echo "<form id='valalquiler' action='index.php' method='post'>
+                    echo "<form id='valalquiler' method='post'>
                             <label for='renta'>Renta mensual: </label>
                             <input type='number' name='renta' id='renta' min='300' max='2500' placeholder='Entre 300 y 2500' required style='width: 130px;'><br>
                             <label for='subida'>Subida anual: </label>
-                            <input type='number' name='subida' id='subida' min='0' max='5' placeholder='Entre 0 y 5' required style='width: 100px;'><br>
+                            <input type='number' name='subida' id='subida' min='0' max='5' placeholder='Entre 0 y 5%' required style='width: 100px;'><br>
                             <label for='plazo'>Plazo: </label>
                             <input type='number' name='plazo' id='plazo' min='1' max='30' placeholder='Entre 1 y 30' required style='width: 100px;'><br>
                             <label for='superficieal'>Superficie: </label>
@@ -30,7 +43,7 @@
                 break;
             
             case 'compra':
-                echo "<form id='valcompra' action='index.php' method='post'>
+                echo "<form id='valcompra' method='post'>
                             <label for='precio'>Precio vivienda: </label>
                             <input type='number' name='precio' id='precio' min='5000' max='800000' placeholder='Entre 5.000 y 800.000' required style='width: 160px;'><br>
                             <label for='entrada'>Porcentaje entrada: </label>
@@ -46,7 +59,7 @@
                 break;
             
             case 'propia':
-                echo "<form id='valpropia' action='index.php' method='post'>
+                echo "<form id='valpropia' method='post'>
                             <label for='preciopro'>Precio suelo: </label>
                             <input type='number' name='preciopro' id='preciopro' min='20000' max='300000' placeholder='Entre 20.000 y 800.000' required style='width: 170px;'><br>
                             <label for='coste'>Coste construccion: </label>
@@ -69,33 +82,33 @@
     }
 
     if(isset($_POST["envalquiler"])){
-        echo $_POST["renta"] . "<br>";
-        echo $_POST["subida"] . "<br>";
-        echo $_POST["plazo"] . "<br>";
-        echo $_POST["superficieal"] . "<br>";
-
-        $vivienda = new ViviendaAlquiler(1, $_POST["renta"], $_POST["subida"], $_POST["plazo"], $_POST["superficieal"]);
-        echo $vivienda->calcularCoste();
-        echo "<br>";
-        $vivienda->insertar_vivienda($vivienda);
-        print_r($_SESSION['viviendas']);
+        $vivienda = new ViviendaAlquiler($_POST["renta"], $_POST["subida"], $_POST["plazo"], $_POST["superficieal"]);
+        $vivienda->calcularCoste();
+        $coleccion->insertar_vivienda($vivienda);
     }
     
     if(isset($_POST["envcompra"])){
-        echo $_POST["precio"] . "<br>";
-        echo $_POST["entrada"] . "<br>";
-        echo $_POST["interes"] . "<br>";
-        echo $_POST["plazo"] . "<br>";
-        echo $_POST["superficiecom"] . "<br>";
+        $viviendacom = new ViviendaCompra($_POST["precio"], $_POST["entrada"], $_POST["interes"], $_POST["plazo"], $_POST["superficiecom"]);
+        $viviendacom->calcularCoste();
+        $coleccion->insertar_vivienda($viviendacom);
     }
 
     if(isset($_POST["envpropia"])){
-        echo $_POST["preciopro"] . "<br>";
-        echo $_POST["coste"] . "<br>";
-        echo $_POST["licencias"] . "<br>";
-        echo $_POST["entradapro"] . "<br>";
-        echo $_POST["interespro"] . "<br>";
-        echo $_POST["plazopro"] . "<br>";
-        echo $_POST["superficiepro"] . "<br>";
+        $viviendapro = new ViviendaPropia($_POST["preciopro"], $_POST["coste"], $_POST["licencias"], $_POST["entradapro"], $_POST["interespro"], $_POST["plazopro"], $_POST["superficiepro"]);
+        $viviendapro->calcularCoste();
+        $coleccion->insertar_vivienda($viviendapro);
+    }
+    
+    if(isset($_POST["imprimir"])){
+        if(!isset($_POST['orden'])){
+            $coleccion->imprimirTabla($_SESSION['viviendas']);
+        }else{
+            $coleccion->imprimirTabla($coleccion->ordenar_por_coste_total());
+        }
+        
+    }
+
+    if(isset($_POST["borrar"])){
+        print_r($coleccion->eliminar_primera());
     }
 ?>

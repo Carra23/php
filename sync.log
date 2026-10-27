@@ -132,3 +132,10 @@ fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve
  create mode 100644 UT3_PHP/Practica/index.php
 To https://github.com/Carra23/php.git
    6158af7..a8b9dac  main -> main
+[main e5191d0] Sync automatico 26/10/2026 14:28:56,75
+ 3 files changed, 14 insertions(+), 4 deletions(-)
+To https://github.com/Carra23/php.git
+   a8b9dac..e5191d0  main -> main
+Already up to date.
+Already up to date.
+Already up to date.
