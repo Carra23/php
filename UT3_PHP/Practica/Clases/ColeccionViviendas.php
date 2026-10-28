@@ -2,22 +2,34 @@
     require_once('ListaViviendas.php');
 
     class ColeccionViviendas implements ListaViviendas{
+
+        protected $arrayViv;
         
-        public function __construct(){}
+        public function __construct(){
+            if(isset($_SESSION['viviendas'])){
+                $this->arrayViv = $_SESSION['viviendas']->getArray();
+            }else{
+                $this->arrayViv = [];
+            }
+        }
         public function insertar_vivienda($vivienda){
             $vivienda->setID("Vivienda " . $_SESSION["contador"]);
-            array_push($_SESSION["viviendas"], $vivienda);
+            array_push($this->arrayViv, $vivienda);
             $_SESSION["contador"] = $_SESSION["contador"] + 1;
+            $_SESSION['viviendas'] = $this;
         }
 
         public function eliminar_primera(): Vivienda{
-            $vivienda0 = $_SESSION['viviendas'][0];
-            array_shift($_SESSION['viviendas']);
-            return $vivienda0;
+            if(isset($this->arrayViv[0])){
+                $vivienda0 = $this->arrayViv[0];
+                array_shift($this->arrayViv);
+                $_SESSION['viviendas'] = $this;
+                return $vivienda0;
+            }
         }
 
         public function ordenar_por_coste_total(): array{
-            $nuevoarray = $_SESSION['viviendas'];
+            $nuevoarray = $_SESSION['viviendas']->getArray();
                     usort($nuevoarray, function($a, $b){
                         return $a->getCosteTotal() <=> $b->getCosteTotal();
                     });
@@ -31,6 +43,10 @@
                 $vivienda->imprimirFila();
             }
             echo "</table>";
+        }
+
+        public function getArray(){
+            return $this->arrayViv;
         }
     }
 ?>

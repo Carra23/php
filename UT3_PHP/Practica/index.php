@@ -4,10 +4,13 @@
         <option value="alquiler">Alquiler</option>
         <option value="compra">Casa comprada</option>
         <option value="propia">Casa propia construida</option>
+        <option value="tienda">Tienda de campaña</option>
     </select>
+    <br>
     <button type="submit" name="enviar" id="enviar">Enviar</button>
-    <button type="submit" name="imprimir" id="imprimir">Imprimir</button>
+
     <button type="submit" name="borrar" id="borrar">Borrar 1º</button>
+    <button type="submit" name="imprimir" id="imprimir">Imprimir</button>
     <input type="checkbox" name="orden" id="orden"/>
     <label for="orden">Orden Coste Total</label>
 </form>
@@ -23,7 +26,6 @@
     $coleccion = new ColeccionViviendas();
     if(!isset($_SESSION['viviendas']) && !isset($_SESSION['contador'])){
         $_SESSION["contador"] = 1;
-        $_SESSION["viviendas"] = [];
     }
 
     if(isset($_POST["enviar"])){
@@ -38,7 +40,7 @@
                             <input type='number' name='plazo' id='plazo' min='1' max='30' placeholder='Entre 1 y 30' required style='width: 100px;'><br>
                             <label for='superficieal'>Superficie: </label>
                             <input type='number' name='superficieal' id='superficieal' min='40' max='400' placeholder='Entre 4 y 400m2' required style='width: 120px;'><br>
-                            <button type='submit' name='envalquiler' id='envalquiler'>Enviar</button>
+                            <button type='submit' name='envalquiler' id='envalquiler'>Añadir</button>
                         </form>";
                 break;
             
@@ -54,7 +56,7 @@
                             <input type='number' name='plazo' id='plazo' min='5' max='30' placeholder='Entre 5 y 30 años' required style='width: 130px;'><br>
                             <label for='superficiecom'>Superficie: </label>
                             <input type='number' name='superficiecom' id='superficiecom' min='40' max='400' placeholder='Entre 4 y 400m2' required style='width: 120px;'><br>
-                            <button type='submit' name='envcompra' id='envcompra'>Enviar</button>
+                            <button type='submit' name='envcompra' id='envcompra'>Añadir</button>
                         </form>";
                 break;
             
@@ -74,8 +76,13 @@
                             <input type='number' name='plazopro' id='plazopro' min='5' max='30' placeholder='Entre 5 y 30 años' required style='width: 130px;'><br>
                             <label for='superficiepro'>Superficie: </label>
                             <input type='number' name='superficiepro' id='superficiepro' min='40' max='400' placeholder='Entre 4 y 400m2' required style='width: 120px;'><br>
-                            <button type='submit' name='envpropia' id='envalquiler'>Enviar</button>
+                            <button type='submit' name='envpropia' id='envalquiler'>Añadir</button>
                         </form>";
+                break;
+            case 'tienda':
+                echo "<h1>Estas en la Puerta del Sol :) </h1>";
+                echo "<h2>Coste total: 0€</h2><h3>Acciones de Quechua</h3>";
+                echo "<img src='stonks.webp' alt='stonks de quechua' width='300' height='200'>";
                 break;
         }
 
@@ -85,30 +92,34 @@
         $vivienda = new ViviendaAlquiler($_POST["renta"], $_POST["subida"], $_POST["plazo"], $_POST["superficieal"]);
         $vivienda->calcularCoste();
         $coleccion->insertar_vivienda($vivienda);
+        $coleccion->imprimirTabla($_SESSION['viviendas']->getArray());
     }
     
     if(isset($_POST["envcompra"])){
         $viviendacom = new ViviendaCompra($_POST["precio"], $_POST["entrada"], $_POST["interes"], $_POST["plazo"], $_POST["superficiecom"]);
         $viviendacom->calcularCoste();
         $coleccion->insertar_vivienda($viviendacom);
+        $coleccion->imprimirTabla($_SESSION['viviendas']->getArray());
     }
 
     if(isset($_POST["envpropia"])){
         $viviendapro = new ViviendaPropia($_POST["preciopro"], $_POST["coste"], $_POST["licencias"], $_POST["entradapro"], $_POST["interespro"], $_POST["plazopro"], $_POST["superficiepro"]);
         $viviendapro->calcularCoste();
         $coleccion->insertar_vivienda($viviendapro);
+        $coleccion->imprimirTabla($_SESSION['viviendas']->getArray());
     }
-    
-    if(isset($_POST["imprimir"])){
+
+    if(isset($_POST['imprimir'])){
         if(!isset($_POST['orden'])){
-            $coleccion->imprimirTabla($_SESSION['viviendas']);
+            $coleccion->imprimirTabla($_SESSION['viviendas']->getArray());
         }else{
-            $coleccion->imprimirTabla($coleccion->ordenar_por_coste_total());
+            $coleccion->imprimirTabla($_SESSION['viviendas']->ordenar_por_coste_total());
         }
-        
     }
 
     if(isset($_POST["borrar"])){
-        print_r($coleccion->eliminar_primera());
+        echo "<table style='border: 5px solid black; width: 100%; text-align: center;'>";
+        $coleccion->eliminar_primera()->imprimirFila();
+        echo "</table>";
     }
 ?>
