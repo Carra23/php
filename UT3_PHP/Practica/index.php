@@ -171,8 +171,12 @@
     }
 
     if(isset($_POST["borrar"])){
-        echo "<table style='border: 5px solid black; width: 100%; text-align: center;'>";
-        $coleccion->eliminar_primera()->imprimirFila();
-        echo "</table>";
+        if(count($coleccion->getArray()) > 0){
+            echo "<table style='border: 5px solid black; width: 100%; text-align: center;'>";
+            $coleccion->eliminar_primera()->imprimirFila();
+            echo "</table>";
+        }else{
+            echo "<h2>Nada que borrar</h2>";
+        }
     }
 ?>

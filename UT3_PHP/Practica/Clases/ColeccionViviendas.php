@@ -20,12 +20,10 @@
         }
 
         public function eliminar_primera(): Vivienda{
-            if(isset($this->arrayViv[0])){
-                $vivienda0 = $this->arrayViv[0];
-                array_shift($this->arrayViv);
-                $_SESSION['viviendas'] = $this;
-                return $vivienda0;
-            }
+            $vivienda0 = $this->arrayViv[0];
+            array_shift($this->arrayViv);
+            $_SESSION['viviendas'] = $this;
+            return $vivienda0;
         }
 
         public function ordenar_por_coste_total(): array{
