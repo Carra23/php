@@ -3,11 +3,8 @@
     <body>
         <h1>Sign in</h1>
         <form method="post">
-            <label for="username">Username</label>
+            <label for="username">Tabla</label>
             <input type="text" name="username" id="username">
-            <br>
-            <label for="userpass">Password</label>
-            <input type="password" name="userpass" id="userpass">
             <br>
             <input type="submit" value="Sign in" name="signin">
         </form>
@@ -18,30 +15,35 @@
     session_start();
 
     if(isset($_POST['signin'])){
-        if(!empty($_POST['username']) && !empty($_POST['userpass'])){
+        if(!empty($_POST['username'])){
             $username = $_POST['username'];
-            $userpass = $_POST['userpass'];
 
-            $host = "localhost";
-            $user = "root";
-            $password = "";
-            $db = "playstation";
-            $conexion = mysqli_connect($host, $user, $password, $db);
+            $conexion = mysqli_connect('localhost', 'root', '', 'playstation');
 
-            $sql = "INSERT INTO `usuario`(`userid`, `username`, `userpass`) VALUES (NULL, '$username', '$userpass')";
-            $result = mysqli_query($conexion, $sql);
+            $sql = "SELECT * FROM $username";
+            $stmt = mysqli_prepare($conexion, $sql);
+            //mysqli_stmt_bind_param($stmt, "s", $username);
 
-            if($result){
-                echo "Se ha registrado con exito";
-                $id = mysqli_query($conexion, "SELECT `userid` FROM `usuario` WHERE `username` = '$username'");
-                $_SESSION['id'] =  mysqli_fetch_asso($id);
+            mysqli_stmt_execute($stmt);
+            $result = mysqli_stmt_get_result($stmt);
+
+            echo "<table>";
+            while($usuario = mysqli_fetch_assoc($result)){
+                echo "<tr>
+                <td>$usuario[userid]</td>
+                <td>$usuario[username]</td>
+                <td>$usuario[userpass]</td>
+                </tr>";
+            }
+
+            echo "</table>";
+
+            /*if($result){
                 header("Location: index.php");
                 exit();
             }else{
                 echo "Se ha producido un error al insertar";
-            }
-
-            mysqli_close($conexion);
+            }*/
         }
     }
 ?>

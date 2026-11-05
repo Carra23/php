@@ -535,3 +535,11 @@ To https://github.com/Carra23/php.git
 Already up to date.
 Already up to date.
 Already up to date.
+[main 324244b] Sync automatico 04/11/2026 14:25:01,84
+ 3 files changed, 403 insertions(+)
+ create mode 100644 UT4_PHP/playstation/index.php
+ create mode 100644 UT4_PHP/playstation/signin.php
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+Already up to date.
