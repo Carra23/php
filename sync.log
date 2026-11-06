@@ -549,3 +549,10 @@ To https://github.com/Carra23/php.git
    eea718b..24714ed  main -> main
 Already up to date.
 Already up to date.
+[main 66ba302] Sync automatico 06/11/2026 14:25:01,72
+ 5 files changed, 120 insertions(+), 3 deletions(-)
+ create mode 100644 UT4_PHP/playstation/conexion.php
+ create mode 100644 UT4_PHP/playstation/config.php
+ create mode 100644 UT4_PHP/playstation/modeloUsuario.php
+To https://github.com/Carra23/php.git
+   24714ed..66ba302  main -> main

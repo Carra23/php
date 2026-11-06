@@ -8,7 +8,7 @@
         }
 
         public function getUserID($id):array{
-            $sql = "SELECT * FROM playstation WHERE userid = :id";
+            $sql = "SELECT * FROM usuario WHERE userid = :id";
             $sql = $this->conexion->prepare($sql);
             $sql->execute(array(":id" => $id));
             $result = $sql->fetchAll(PDO::FETCH_ASSOC);
@@ -17,7 +17,7 @@
         }
 
         public function getUsers():array{
-            $sql = "SELECT * FROM playstation";
+            $sql = "SELECT * FROM usuario";
             $sql = $this->conexion->prepare($sql);
             $sql->execute();
             $result = $sql->fetchAll(PDO::FETCH_ASSOC);
@@ -28,7 +28,7 @@
         public function insertUser($username, $userpass):bool{
             $sql = "INSERT INTO `usuario`(`username`, `userpass`) VALUES (':user',':pass')";
             $sql = $this->conexion->prepare($sql);
-            $sql->execute(array(":user" => $username, ":pass" => $userpass));
+            $sql->execute([":user" => $username, ":pass" => $userpass]);
             $result = $sql;
             $sql->closeCursor();
             return $result;
