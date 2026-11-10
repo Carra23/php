@@ -26,13 +26,13 @@
         }
 
         public function insertUser($username, $userpass):bool{
-            $sql = "INSERT INTO `usuario`(`username`, `userpass`) VALUES (':user',':pass')";
+            $sql = "INSERT INTO `usuario`(`username`, `userpass`) VALUES (:user, :pass)";
             $sql = $this->conexion->prepare($sql);
-            $sql->execute([":user" => $username, ":pass" => $userpass]);
-            $result = $sql;
+            $result = $sql->execute([":user" => $username, ":pass" => $userpass]);
             $sql->closeCursor();
             return $result;
         }
+        
 
     }
 ?>

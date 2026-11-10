@@ -561,3 +561,11 @@ To https://github.com/Carra23/php.git
 To https://github.com/Carra23/php.git
    66ba302..97b7be8  main -> main
 Already up to date.
+[main cff1d5a] Sync automatico 09/11/2026 14:25:01,70
+ 1 file changed, 5 insertions(+)
+To https://github.com/Carra23/php.git
+   97b7be8..cff1d5a  main -> main
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+Already up to date.
+Already up to date.
