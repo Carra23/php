@@ -595,3 +595,9 @@ Already up to date.
  create mode 100644 UT4_PHP/practica/index.php
 To https://github.com/Carra23/php.git
    eabbd5f..189040c  main -> main
+[main 55fe7a3] Sync automatico 13/11/2026 14:05:24,10
+ 5 files changed, 20 insertions(+), 8 deletions(-)
+ create mode 100644 UT4_PHP/practica/admin.php
+ create mode 100644 UT4_PHP/practica/profesor.php
+To https://github.com/Carra23/php.git
+   189040c..55fe7a3  main -> main
