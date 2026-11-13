@@ -28,15 +28,15 @@
             $userpass = $_POST['userpass'];
 
             switch ($validador->validar($username, $userpass)) {
-                case 1:
-                    echo "Has accedido como profesor";
+                case "profesor":
+                    header("Location: profesor.php");
                     break;
 
-                case 2:
-                    echo "Has accedido como administrativo";
+                case "admin":
+                    header("Location: admin.php");
                     break;
 
-                case 3:
+                case "error":
                     echo "Credenciales incorrectas";
                     break;
                 

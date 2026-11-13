@@ -10,11 +10,11 @@
             $profe = new modeloProfe();
             $admin = new modeloAdmin();
             if($profe->validarProfesor($username, $userpass) != null){
-                return 1;
+                return "profesor";
             } else if($admin->validarAdmin($username, $userpass) != null){
-                return 2;
+                return "admin";
             } else{
-                return 3;
+                return "error";
             }
            
         }
