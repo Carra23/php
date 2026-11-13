@@ -577,3 +577,11 @@ Already up to date.
 Already up to date.
 Already up to date.
 fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+[main e5c7893] Sync automatico 12/11/2026 14:25:02,41
+ 4 files changed, 263 insertions(+)
+ create mode 100644 UT4_PHP/practica/docs/Estructura de la Base de Datos academia.docx
+ create mode 100644 UT4_PHP/practica/docs/Practica Tema 4 2627.pdf
+ create mode 100644 UT4_PHP/practica/docs/academia.sql
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+Already up to date.
+Already up to date.
