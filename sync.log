@@ -1,0 +1,637 @@
+Already up to date.
+Already up to date.
+[main dc7f854] Sync automatico 06/10/2026 11:15:11,00
+ 6 files changed, 105 insertions(+), 49 deletions(-)
+ create mode 100644 UT1_PHP/Practica1/agenda.php
+ create mode 100644 UT1_PHP/Practica1/imprimir.php
+ create mode 100644 UT1_PHP/Practica1/nuevocontacto.php
+ create mode 100644 UT1_PHP/Practica1/vaciar.php
+ create mode 100644 sync.log
+To https://github.com/Carra23/php.git
+   bf0117a..dc7f854  main -> main
+[main 5f1136f] Sync automatico 06/10/2026 14:27:21,01
+ 2 files changed, 9 insertions(+)
+ create mode 100644 UT1_PHP/Practica1/AgendaJoseAngelCarralero.zip
+To https://github.com/Carra23/php.git
+   dc7f854..5f1136f  main -> main
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+Already up to date.
+Already up to date.
+[main 3ba2a8b] Sync automatico 07/10/2026 14:10:01,94
+ 4 files changed, 15 insertions(+), 4 deletions(-)
+To https://github.com/Carra23/php.git
+   5f1136f..3ba2a8b  main -> main
+[main 98cb8df] Sync automatico 07/10/2026 14:25:02,10
+ 1 file changed, 4 insertions(+)
+To https://github.com/Carra23/php.git
+   3ba2a8b..98cb8df  main -> main
+Already up to date.
+Already up to date.
+Already up to date.
+[main 3de7ff4] Sync automatico 08/10/2026 14:25:02,01
+ 1 file changed, 7 insertions(+)
+To https://github.com/Carra23/php.git
+   98cb8df..3de7ff4  main -> main
+Already up to date.
+Already up to date.
+Already up to date.
+[main 7647758] Sync automatico 09/10/2026 14:25:02,50
+ 1 file changed, 7 insertions(+)
+To https://github.com/Carra23/php.git
+   3de7ff4..7647758  main -> main
+Already up to date.
+[main bbb9bae] Sync automatico 13/10/2026 14:25:02,36
+ 3 files changed, 26 insertions(+)
+ create mode 100644 UT3_PHP/Coche.php
+ create mode 100644 UT3_PHP/index.php
+To https://github.com/Carra23/php.git
+   7647758..bbb9bae  main -> main
+Already up to date.
+Already up to date.
+[main df9c2c7] Sync automatico 14/10/2026 14:25:02,08
+ 7 files changed, 133 insertions(+)
+ create mode 100644 UT3_PHP/EjerClase/ejer1/Ejer1.php
+ create mode 100644 UT3_PHP/EjerClase/ejer1/index.php
+ create mode 100644 UT3_PHP/EjerClase/ejer7/index.php
+ create mode 100644 UT3_PHP/EjerClase/ejer7/inventario.php
+ rename UT3_PHP/{ => TEST}/Coche.php (100%)
+ rename UT3_PHP/{ => TEST}/index.php (100%)
+To https://github.com/Carra23/php.git
+   bbb9bae..df9c2c7  main -> main
+Already up to date.
+Already up to date.
+Already up to date.
+[main d52abcf] Sync automatico 15/10/2026 14:25:02,28
+ 13 files changed, 101 insertions(+), 18 deletions(-)
+ delete mode 100644 UT3_PHP/EjerClase/ejer1/Ejer1.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.1/ejer1/Ejer1.php
+ rename UT3_PHP/EjerClase/{ => hoja3.1}/ejer1/index.php (100%)
+ rename UT3_PHP/EjerClase/{ => hoja3.1}/ejer7/index.php (100%)
+ rename UT3_PHP/EjerClase/{ => hoja3.1}/ejer7/inventario.php (100%)
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer1/Deportista.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer1/Persona.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer1/Saludable.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer1/index.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer4/Autenticable.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer4/Registrable.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.5/ejer4/Usuario.php
+To https://github.com/Carra23/php.git
+   df9c2c7..d52abcf  main -> main
+Already up to date.
+Already up to date.
+[main 966af20] Sync automatico 16/10/2026 14:25:01,83
+ 7 files changed, 143 insertions(+)
+ create mode 100644 UT3_PHP/EjerClase/hoja3.6/Bicicleta.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.6/Camion.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.6/Coche.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.6/Vehiculo.php
+ create mode 100644 UT3_PHP/EjerClase/hoja3.6/index.php
+To https://github.com/Carra23/php.git
+   d52abcf..966af20  main -> main
+Already up to date.
+[main e39d1fe] Sync automatico 19/10/2026 14:25:02,11
+ 1 file changed, 10 insertions(+)
+To https://github.com/Carra23/php.git
+   966af20..e39d1fe  main -> main
+Already up to date.
+Already up to date.
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+[main 94c63d0] Sync automatico 20/10/2026 14:25:01,90
+ 2 files changed, 7 insertions(+)
+ create mode 100644 UT3_PHP/EjerClase/EjerT3JoseAngel.zip
+To https://github.com/Carra23/php.git
+   e39d1fe..94c63d0  main -> main
+Already up to date.
+Already up to date.
+[main d68c9c5] Sync automatico 21/10/2026 14:20:57,95
+ 2 files changed, 49 insertions(+)
+ create mode 100644 UT3_PHP/EjerClase/hoja3.7/ejer6/ConfiguracionGlobal.php
+To https://github.com/Carra23/php.git
+   94c63d0..d68c9c5  main -> main
+Already up to date.
+Already up to date.
+Already up to date.
+[main 6158af7] Sync automatico 22/10/2026 14:25:02,07
+ 4 files changed, 43 insertions(+)
+ create mode 100644 UT3_PHP/EjerClase/Ejer3.12/Libro.php
+ create mode 100644 UT3_PHP/EjerClase/Ejer3.12/Serializable.php
+ create mode 100644 UT3_PHP/EjerClase/Ejer3.12/index.php
+To https://github.com/Carra23/php.git
+   d68c9c5..6158af7  main -> main
+Already up to date.
+Already up to date.
+Already up to date.
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+[main a8b9dac] Sync automatico 26/10/2026 14:25:01,75
+ 7 files changed, 198 insertions(+)
+ create mode 100644 UT3_PHP/Practica/Clases/Hipoteca.php
+ create mode 100644 UT3_PHP/Practica/Clases/ListaViviendas.php
+ create mode 100644 UT3_PHP/Practica/Clases/Vivienda.php
+ create mode 100644 UT3_PHP/Practica/Clases/ViviendaAlquiler.php
+ create mode 100644 "UT3_PHP/Practica/UT3. Pra\314\201ctica 2627 Vivienda.pdf"
+ create mode 100644 UT3_PHP/Practica/index.php
+To https://github.com/Carra23/php.git
+   6158af7..a8b9dac  main -> main
+[main e5191d0] Sync automatico 26/10/2026 14:28:56,75
+ 3 files changed, 14 insertions(+), 4 deletions(-)
+To https://github.com/Carra23/php.git
+   a8b9dac..e5191d0  main -> main
+Already up to date.
+Already up to date.
+Already up to date.
+[main 3c5c8d4] Sync automatico 27/10/2026 14:00:56,91
+ 9 files changed, 352 insertions(+), 47 deletions(-)
+ create mode 100644 UT3_PHP/Practica/Clases/ColeccionViviendas.php
+ create mode 100644 UT3_PHP/Practica/Clases/ViviendaCompra.php
+ create mode 100644 UT3_PHP/Practica/Clases/ViviendaPropia.php
+ create mode 100644 UT3_PHP/Practica/diagrama.drawio
+To https://github.com/Carra23/php.git
+   e5191d0..3c5c8d4  main -> main
+[main b94a488] Sync automatico 27/10/2026 14:25:01,96
+ 1 file changed, 8 insertions(+)
+To https://github.com/Carra23/php.git
+   3c5c8d4..b94a488  main -> main
+Already up to date.
+Already up to date.
+Already up to date.
+[main 4e9ccf1] Sync automatico 28/10/2026 13:54:46,73
+ 6 files changed, 56 insertions(+), 22 deletions(-)
+ create mode 100644 UT3_PHP/Practica/PracticaUT3JoseAngelCarralero.zip
+ create mode 100644 UT3_PHP/Practica/stonks.webp
+To https://github.com/Carra23/php.git
+   b94a488..4e9ccf1  main -> main
+[main c31e4a9] Sync automatico 28/10/2026 14:25:02,31
+ 1 file changed, 6 insertions(+)
+To https://github.com/Carra23/php.git
+   4e9ccf1..c31e4a9  main -> main
+Already up to date.
+Already up to date.
+[main 2e091ff] Sync automatico 29/10/2026 14:25:02,34
+ 4 files changed, 87 insertions(+), 28 deletions(-)
+ create mode 100644 UT3_PHP/EjerClase/Ejer3.12/Ejer3.12JoseAngelCarralero.zip
+To https://github.com/Carra23/php.git
+   c31e4a9..2e091ff  main -> main
+Already up to date.
+Already up to date.
+Already up to date.
+[main 770d932] Sync automatico 30/10/2026 14:12:25,12
+ 4 files changed, 19 insertions(+), 9 deletions(-)
+To https://github.com/Carra23/php.git
+   2e091ff..770d932  main -> main
+[main 5de1086] Sync automatico 30/10/2026 14:22:42,66
+ 1 file changed, 4 insertions(+)
+To https://github.com/Carra23/php.git
+   770d932..5de1086  main -> main
+Already up to date.
+[main eea718b] Sync automatico 03/11/2026 14:25:01,70
+ 346 files changed, 29 insertions(+), 77234 deletions(-)
+ create mode 100644 UT4_PHP/test/conexion.php
+ delete mode 100644 applications.html
+ delete mode 100644 bitnami.css
+ delete mode 100644 dashboard/404.html
+ delete mode 100644 dashboard/de/faq.html
+ delete mode 100644 dashboard/de/howto.html
+ delete mode 100644 dashboard/de/howto_platform_links.html
+ delete mode 100644 dashboard/de/howto_shared_links.html
+ delete mode 100644 dashboard/de/index.html
+ delete mode 100644 dashboard/docs/access-phpmyadmin-remotely.html
+ delete mode 100644 dashboard/docs/access-phpmyadmin-remotely.pdf
+ delete mode 100644 dashboard/docs/access-phpmyadmin-remotely.pdfmarks
+ delete mode 100644 dashboard/docs/activate-use-xdebug.html
+ delete mode 100644 dashboard/docs/activate-use-xdebug.pdf
+ delete mode 100644 dashboard/docs/activate-use-xdebug.pdfmarks
+ delete mode 100644 dashboard/docs/auto-start-xampp.html
+ delete mode 100644 dashboard/docs/auto-start-xampp.pdf
+ delete mode 100644 dashboard/docs/auto-start-xampp.pdfmarks
+ delete mode 100644 dashboard/docs/backup-restore-mysql.html
+ delete mode 100644 dashboard/docs/backup-restore-mysql.pdf
+ delete mode 100644 dashboard/docs/backup-restore-mysql.pdfmarks
+ delete mode 100644 dashboard/docs/change-mysql-temp-dir.html
+ delete mode 100644 dashboard/docs/change-mysql-temp-dir.pdf
+ delete mode 100644 dashboard/docs/change-mysql-temp-dir.pdfmarks
+ delete mode 100644 dashboard/docs/configure-use-tomcat.html
+ delete mode 100644 dashboard/docs/configure-use-tomcat.pdf
+ delete mode 100644 dashboard/docs/configure-use-tomcat.pdfmarks
+ delete mode 100644 dashboard/docs/configure-vhosts.html
+ delete mode 100644 dashboard/docs/configure-vhosts.pdf
+ delete mode 100644 dashboard/docs/configure-vhosts.pdfmarks
+ delete mode 100644 dashboard/docs/configure-wildcard-subdomains.html
+ delete mode 100644 dashboard/docs/configure-wildcard-subdomains.pdf
+ delete mode 100644 dashboard/docs/configure-wildcard-subdomains.pdfmarks
+ delete mode 100644 dashboard/docs/create-framework-project-zf1.html
+ delete mode 100644 dashboard/docs/create-framework-project-zf1.pdf
+ delete mode 100644 dashboard/docs/create-framework-project-zf1.pdfmarks
+ delete mode 100644 dashboard/docs/create-framework-project-zf2.html
+ delete mode 100644 dashboard/docs/create-framework-project-zf2.pdf
+ delete mode 100644 dashboard/docs/create-framework-project-zf2.pdfmarks
+ delete mode 100644 dashboard/docs/deploy-git-app.html
+ delete mode 100644 dashboard/docs/deploy-git-app.pdf
+ delete mode 100644 dashboard/docs/deploy-git-app.pdfmarks
+ delete mode 100644 dashboard/docs/images/access-phpmyadmin-remotely/image1.png
+ delete mode 100644 dashboard/docs/images/activate-use-xdebug/image1.png
+ delete mode 100644 dashboard/docs/images/activate-use-xdebug/image2.png
+ delete mode 100644 dashboard/docs/images/activate-use-xdebug/image3.png
+ delete mode 100644 dashboard/docs/images/auto-start-xampp/image1.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image1.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image10.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image11.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image12.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image13.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image14.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image2.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image3.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image4.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image5.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image6.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image7.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image8.png
+ delete mode 100644 dashboard/docs/images/backup-restore-mysql/image9.png
+ delete mode 100644 dashboard/docs/images/configure-use-tomcat/image1.png
+ delete mode 100644 dashboard/docs/images/configure-use-tomcat/image2.png
+ delete mode 100644 dashboard/docs/images/configure-use-tomcat/image3.png
+ delete mode 100644 dashboard/docs/images/configure-use-tomcat/image4.png
+ delete mode 100644 dashboard/docs/images/configure-use-tomcat/image5.png
+ delete mode 100644 dashboard/docs/images/configure-use-tomcat/image6.png
+ delete mode 100644 dashboard/docs/images/configure-use-tomcat/image7.png
+ delete mode 100644 dashboard/docs/images/configure-vhosts/image1.png
+ delete mode 100644 dashboard/docs/images/configure-vhosts/image2.png
+ delete mode 100644 dashboard/docs/images/configure-vhosts/image3.png
+ delete mode 100644 dashboard/docs/images/configure-vhosts/image4.png
+ delete mode 100644 dashboard/docs/images/configure-wildcard-subdomains/image1.png
+ delete mode 100644 dashboard/docs/images/configure-wildcard-subdomains/image2.png
+ delete mode 100644 dashboard/docs/images/configure-wildcard-subdomains/image3.png
+ delete mode 100644 dashboard/docs/images/configure-wildcard-subdomains/image4.png
+ delete mode 100644 dashboard/docs/images/create-framework-project-zf1/image1.png
+ delete mode 100644 dashboard/docs/images/create-framework-project-zf1/image2.png
+ delete mode 100644 dashboard/docs/images/create-framework-project-zf2/image1.png
+ delete mode 100644 dashboard/docs/images/create-framework-project-zf2/image2.png
+ delete mode 100644 dashboard/docs/images/create-framework-project-zf2/image3.png
+ delete mode 100644 dashboard/docs/images/create-framework-project-zf2/image4.png
+ delete mode 100644 dashboard/docs/images/create-framework-project-zf2/image5.png
+ delete mode 100644 dashboard/docs/images/deploy-git-app/image1.png
+ delete mode 100644 dashboard/docs/images/deploy-git-app/image2.png
+ delete mode 100644 dashboard/docs/images/deploy-git-app/image3.png
+ delete mode 100644 dashboard/docs/images/deploy-git-app/image4.png
+ delete mode 100644 dashboard/docs/images/deploy-git-app/image5.png
+ delete mode 100644 dashboard/docs/images/deploy-git-app/image6.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image01.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image02.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image11.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image110.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image12.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image13.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image14.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image15.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image16.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image17.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image18.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image19.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image21.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image22.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image23.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image24.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image31.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image32.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image33.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image34.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image35.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image36.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image37.png
+ delete mode 100644 dashboard/docs/images/install-wordpress/image38.png
+ delete mode 100644 dashboard/docs/images/reset-mysql-password/image1.png
+ delete mode 100644 dashboard/docs/images/reset-mysql-password/image2.png
+ delete mode 100644 dashboard/docs/images/reset-mysql-password/image3.png
+ delete mode 100644 dashboard/docs/images/send-mail/image1.png
+ delete mode 100644 dashboard/docs/images/send-mail/image2.png
+ delete mode 100644 dashboard/docs/images/send-mail/image3.png
+ delete mode 100644 dashboard/docs/images/transfer-files-ftp/image1.png
+ delete mode 100644 dashboard/docs/images/transfer-files-ftp/image10.png
+ delete mode 100644 dashboard/docs/images/transfer-files-ftp/image11.png
+ delete mode 100644 dashboard/docs/images/transfer-files-ftp/image2.png
+ delete mode 100644 dashboard/docs/images/transfer-files-ftp/image3.png
+ delete mode 100644 dashboard/docs/images/transfer-files-ftp/image4.png
+ delete mode 100644 dashboard/docs/images/transfer-files-ftp/image5.png
+ delete mode 100644 dashboard/docs/images/transfer-files-ftp/image6.png
+ delete mode 100644 dashboard/docs/images/transfer-files-ftp/image7.png
+ delete mode 100644 dashboard/docs/images/transfer-files-ftp/image8.png
+ delete mode 100644 dashboard/docs/images/transfer-files-ftp/image9.png
+ delete mode 100644 dashboard/docs/images/troubleshoot-apache/image1.png
+ delete mode 100644 dashboard/docs/images/troubleshoot-apache/image2.png
+ delete mode 100644 dashboard/docs/images/troubleshoot-apache/image3.png
+ delete mode 100644 dashboard/docs/images/troubleshoot-apache/image4.png
+ delete mode 100644 dashboard/docs/images/troubleshoot-apache/image5.png
+ delete mode 100644 dashboard/docs/images/troubleshoot-apache/image6.png
+ delete mode 100644 dashboard/docs/images/troubleshoot-apache/image7.png
+ delete mode 100644 dashboard/docs/images/troubleshoot-apache/image8.png
+ delete mode 100644 dashboard/docs/images/use-different-php-version/image1.png
+ delete mode 100644 dashboard/docs/images/use-php-fcgi/image1.png
+ delete mode 100644 dashboard/docs/images/use-sqlite/image1.png
+ delete mode 100644 dashboard/docs/images/use-sqlite/image2.png
+ delete mode 100644 dashboard/docs/images/use-sqlite/image3.png
+ delete mode 100644 dashboard/docs/increase-php-file-upload-limit.html
+ delete mode 100644 dashboard/docs/increase-php-file-upload-limit.pdf
+ delete mode 100644 dashboard/docs/increase-php-file-upload-limit.pdfmarks
+ delete mode 100644 dashboard/docs/reset-mysql-password.html
+ delete mode 100644 dashboard/docs/reset-mysql-password.pdf
+ delete mode 100644 dashboard/docs/reset-mysql-password.pdfmarks
+ delete mode 100644 dashboard/docs/send-mail.html
+ delete mode 100644 dashboard/docs/send-mail.pdf
+ delete mode 100644 dashboard/docs/send-mail.pdfmarks
+ delete mode 100644 dashboard/docs/transfer-files-ftp.html
+ delete mode 100644 dashboard/docs/transfer-files-ftp.pdf
+ delete mode 100644 dashboard/docs/transfer-files-ftp.pdfmarks
+ delete mode 100644 dashboard/docs/troubleshoot-apache.html
+ delete mode 100644 dashboard/docs/troubleshoot-apache.pdf
+ delete mode 100644 dashboard/docs/troubleshoot-apache.pdfmarks
+ delete mode 100644 dashboard/docs/use-different-php-version.html
+ delete mode 100644 dashboard/docs/use-different-php-version.pdf
+ delete mode 100644 dashboard/docs/use-different-php-version.pdfmarks
+ delete mode 100644 dashboard/docs/use-php-fcgi.html
+ delete mode 100644 dashboard/docs/use-php-fcgi.pdf
+ delete mode 100644 dashboard/docs/use-php-fcgi.pdfmarks
+ delete mode 100644 dashboard/docs/use-sqlite.html
+ delete mode 100644 dashboard/docs/use-sqlite.pdf
+ delete mode 100644 dashboard/docs/use-sqlite.pdfmarks
+ delete mode 100644 dashboard/es/faq.html
+ delete mode 100644 dashboard/es/howto.html
+ delete mode 100644 dashboard/es/howto_platform_links.html
+ delete mode 100644 dashboard/es/howto_shared_links.html
+ delete mode 100644 dashboard/es/index.html
+ delete mode 100644 dashboard/faq.html
+ delete mode 100644 dashboard/favicon.ico
+ delete mode 100644 dashboard/fr/faq.html
+ delete mode 100644 dashboard/fr/howto.html
+ delete mode 100644 dashboard/fr/howto_platform_links.html
+ delete mode 100644 dashboard/fr/howto_shared_links.html
+ delete mode 100644 dashboard/fr/index.html
+ delete mode 100644 dashboard/howto.html
+ delete mode 100644 dashboard/howto_platform_links.html
+ delete mode 100644 dashboard/howto_shared_links.html
+ delete mode 100644 dashboard/hu/faq.html
+ delete mode 100644 dashboard/hu/howto.html
+ delete mode 100644 dashboard/hu/howto_platform_links.html
+ delete mode 100644 dashboard/hu/howto_shared_links.html
+ delete mode 100644 dashboard/hu/index.html
+ delete mode 100644 dashboard/images/addons-video-thumb.png
+ delete mode 100644 dashboard/images/apple-logo.png
+ delete mode 100644 dashboard/images/appleVM-logo.png
+ delete mode 100644 dashboard/images/background.png
+ delete mode 100644 dashboard/images/bitnami-xampp.png
+ delete mode 100644 dashboard/images/bitnami-xampp/image1.png
+ delete mode 100644 dashboard/images/bitnami-xampp/image2.png
+ delete mode 100644 dashboard/images/bitnami-xampp/image3.png
+ delete mode 100644 dashboard/images/bitnami-xampp/image4.png
+ delete mode 100644 dashboard/images/bitnami-xampp/image5.png
+ delete mode 100644 dashboard/images/bitnami-xampp/image6.png
+ delete mode 100644 dashboard/images/bitnami-xampp/image7.png
+ delete mode 100644 dashboard/images/blog/download-xampp-vm.png
+ delete mode 100644 dashboard/images/blog/heartbleed-affected-osx.png
+ delete mode 100644 dashboard/images/blog/heartbleed-affected.png
+ delete mode 100644 dashboard/images/blog/heartbleed-fixed.png
+ delete mode 100644 dashboard/images/blog/phpinfo-section-1.png
+ delete mode 100644 dashboard/images/blog/phpinfo-section-2.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-cakephp-1.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-cakephp-10.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-cakephp-11.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-cakephp-2.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-cakephp-3.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-cakephp-4.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-cakephp-5.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-cakephp-6.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-cakephp-7.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-cakephp-8.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-cakephp-9.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-general.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-manager.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-network.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-php-finder.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-php-output.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-tray.png
+ delete mode 100644 dashboard/images/blog/xampp-vm-volumes.png
+ delete mode 100644 dashboard/images/fastly-logo.png
+ delete mode 100644 dashboard/images/fastly-logo@2x.png
+ delete mode 100644 dashboard/images/favicon.png
+ delete mode 100644 dashboard/images/flags/cn.png
+ delete mode 100644 dashboard/images/flags/de.png
+ delete mode 100644 dashboard/images/flags/en.png
+ delete mode 100644 dashboard/images/flags/es.png
+ delete mode 100644 dashboard/images/flags/fr.png
+ delete mode 100644 dashboard/images/flags/hu.png
+ delete mode 100644 dashboard/images/flags/it.png
+ delete mode 100644 dashboard/images/flags/jp.png
+ delete mode 100644 dashboard/images/flags/pl.png
+ delete mode 100644 dashboard/images/flags/pt.png
+ delete mode 100644 dashboard/images/flags/pt_br.png
+ delete mode 100644 dashboard/images/flags/ro.png
+ delete mode 100644 dashboard/images/flags/ru.png
+ delete mode 100644 dashboard/images/flags/tr.png
+ delete mode 100644 dashboard/images/flags/ur.png
+ delete mode 100644 dashboard/images/flags/zh_cn.png
+ delete mode 100644 dashboard/images/flags/zh_tw.png
+ delete mode 100644 dashboard/images/linux-logo.png
+ delete mode 100644 dashboard/images/middleman.png
+ delete mode 100644 dashboard/images/pdf-icon.png
+ delete mode 100644 dashboard/images/screenshots/xampp-linux-start.jpg
+ delete mode 100644 dashboard/images/screenshots/xampp-macosx-download-installer.jpg
+ delete mode 100644 dashboard/images/screenshots/xampp-macosx-launch-credentials.jpg
+ delete mode 100644 dashboard/images/screenshots/xampp-macosx-run-installer.jpg
+ delete mode 100644 dashboard/images/screenshots/xampp-macosx-stack-manager-general.jpg
+ delete mode 100644 dashboard/images/screenshots/xampp-macosx-stack-manager-network.jpg
+ delete mode 100644 dashboard/images/screenshots/xampp-macosx-stack-manager-services.jpg
+ delete mode 100644 dashboard/images/screenshots/xampp-macosx-stack-manager-volumes.jpg
+ delete mode 100644 dashboard/images/screenshots/xampp-macosx-stack-manager.jpg
+ delete mode 100644 dashboard/images/screenshots/xampp-macosx-start.jpg
+ delete mode 100644 dashboard/images/screenshots/xampp-macosx-wordpress.jpg
+ delete mode 100644 dashboard/images/screenshots/xampp-windows-start.jpg
+ delete mode 100644 dashboard/images/social-icons-large.png
+ delete mode 100644 dashboard/images/social-icons-large@2x.png
+ delete mode 100644 dashboard/images/social-icons.png
+ delete mode 100644 dashboard/images/social-icons@2x.png
+ delete mode 100644 dashboard/images/sourceforge-logo.png
+ delete mode 100644 dashboard/images/sourceforge-logo@2x.png
+ delete mode 100644 dashboard/images/stack-icons.png
+ delete mode 100644 dashboard/images/stack-icons@2x.png
+ delete mode 100644 dashboard/images/stamps/stamp-173x38.gif
+ delete mode 100644 dashboard/images/stamps/stamp-80x15.gif
+ delete mode 100644 dashboard/images/stamps/stamp-88x31.gif
+ delete mode 100644 dashboard/images/team/beltran-rueda.png
+ delete mode 100644 dashboard/images/team/daniel-lopez.png
+ delete mode 100644 dashboard/images/team/kai-seidler.jpg
+ delete mode 100644 dashboard/images/team/kay-vogelgesang.jpg
+ delete mode 100644 dashboard/images/team/paul-hinz.jpg
+ delete mode 100644 dashboard/images/twitter-bird.png
+ delete mode 100644 dashboard/images/windows-logo.png
+ delete mode 100644 dashboard/images/xampp-cloud.png
+ delete mode 100644 dashboard/images/xampp-cloud@2x.png
+ delete mode 100644 dashboard/images/xampp-logo.svg
+ delete mode 100644 dashboard/images/xampp-newsletter-logo.png
+ delete mode 100644 dashboard/index.html
+ delete mode 100644 dashboard/it/faq.html
+ delete mode 100644 dashboard/it/howto.html
+ delete mode 100644 dashboard/it/howto_platform_links.html
+ delete mode 100644 dashboard/it/howto_shared_links.html
+ delete mode 100644 dashboard/it/index.html
+ delete mode 100644 dashboard/javascripts/all.js
+ delete mode 100644 dashboard/javascripts/modernizr.js
+ delete mode 100644 dashboard/jp/faq.html
+ delete mode 100644 dashboard/jp/howto.html
+ delete mode 100644 dashboard/jp/howto_platform_links.html
+ delete mode 100644 dashboard/jp/howto_shared_links.html
+ delete mode 100644 dashboard/jp/index.html
+ delete mode 100644 dashboard/phpinfo.php
+ delete mode 100644 dashboard/pl/faq.html
+ delete mode 100644 dashboard/pl/howto.html
+ delete mode 100644 dashboard/pl/howto_platform_links.html
+ delete mode 100644 dashboard/pl/howto_shared_links.html
+ delete mode 100644 dashboard/pl/index.html
+ delete mode 100644 dashboard/pt_br/faq.html
+ delete mode 100644 dashboard/pt_br/howto.html
+ delete mode 100644 dashboard/pt_br/howto_platform_links.html
+ delete mode 100644 dashboard/pt_br/howto_shared_links.html
+ delete mode 100644 dashboard/pt_br/index.html
+ delete mode 100644 dashboard/ro/faq.html
+ delete mode 100644 dashboard/ro/howto.html
+ delete mode 100644 dashboard/ro/howto_platform_links.html
+ delete mode 100644 dashboard/ro/howto_shared_links.html
+ delete mode 100644 dashboard/ro/index.html
+ delete mode 100644 dashboard/ru/faq.html
+ delete mode 100644 dashboard/ru/howto.html
+ delete mode 100644 dashboard/ru/howto_platform_links.html
+ delete mode 100644 dashboard/ru/howto_shared_links.html
+ delete mode 100644 dashboard/ru/index.html
+ delete mode 100644 dashboard/stylesheets/all-rtl.css
+ delete mode 100644 dashboard/stylesheets/all.css
+ delete mode 100644 dashboard/stylesheets/asciidoctor.css
+ delete mode 100644 dashboard/stylesheets/normalize.css
+ delete mode 100644 dashboard/tr/faq.html
+ delete mode 100644 dashboard/tr/howto.html
+ delete mode 100644 dashboard/tr/howto_platform_links.html
+ delete mode 100644 dashboard/tr/howto_shared_links.html
+ delete mode 100644 dashboard/tr/index.html
+ delete mode 100644 dashboard/ur/faq.html
+ delete mode 100644 dashboard/ur/howto.html
+ delete mode 100644 dashboard/ur/howto_platform_links.html
+ delete mode 100644 dashboard/ur/howto_shared_links.html
+ delete mode 100644 dashboard/ur/index.html
+ delete mode 100644 dashboard/zh_cn/faq.html
+ delete mode 100644 dashboard/zh_cn/howto.html
+ delete mode 100644 dashboard/zh_cn/howto_platform_links.html
+ delete mode 100644 dashboard/zh_cn/howto_shared_links.html
+ delete mode 100644 dashboard/zh_cn/index.html
+ delete mode 100644 dashboard/zh_tw/faq.html
+ delete mode 100644 dashboard/zh_tw/howto.html
+ delete mode 100644 dashboard/zh_tw/howto_platform_links.html
+ delete mode 100644 dashboard/zh_tw/howto_shared_links.html
+ delete mode 100644 dashboard/zh_tw/index.html
+ delete mode 100644 favicon.ico
+ delete mode 100644 img/module_table_bottom.png
+ delete mode 100644 img/module_table_top.png
+ delete mode 100644 index.php
+ delete mode 100644 xampp/.modell
+ delete mode 100644 xampp/.modell-usb
+ delete mode 100644 xampp/.version
+To https://github.com/Carra23/php.git
+   5de1086..eea718b  main -> main
+Already up to date.
+Already up to date.
+Already up to date.
+[main 324244b] Sync automatico 04/11/2026 14:25:01,84
+ 3 files changed, 403 insertions(+)
+ create mode 100644 UT4_PHP/playstation/index.php
+ create mode 100644 UT4_PHP/playstation/signin.php
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+Already up to date.
+[main 24714ed] Sync automatico 05/11/2026 14:25:01,91
+ 3 files changed, 31 insertions(+), 21 deletions(-)
+To https://github.com/Carra23/php.git
+   eea718b..24714ed  main -> main
+Already up to date.
+Already up to date.
+[main 66ba302] Sync automatico 06/11/2026 14:25:01,72
+ 5 files changed, 120 insertions(+), 3 deletions(-)
+ create mode 100644 UT4_PHP/playstation/conexion.php
+ create mode 100644 UT4_PHP/playstation/config.php
+ create mode 100644 UT4_PHP/playstation/modeloUsuario.php
+To https://github.com/Carra23/php.git
+   24714ed..66ba302  main -> main
+[main 97b7be8] Sync automatico 06/11/2026 14:30:46,32
+ 4 files changed, 20 insertions(+), 29 deletions(-)
+To https://github.com/Carra23/php.git
+   66ba302..97b7be8  main -> main
+Already up to date.
+[main cff1d5a] Sync automatico 09/11/2026 14:25:01,70
+ 1 file changed, 5 insertions(+)
+To https://github.com/Carra23/php.git
+   97b7be8..cff1d5a  main -> main
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+Already up to date.
+Already up to date.
+[main eabbd5f] Sync automatico 10/11/2026 14:25:02,23
+ 2 files changed, 11 insertions(+), 3 deletions(-)
+To https://github.com/Carra23/php.git
+   cff1d5a..eabbd5f  main -> main
+Already up to date.
+Already up to date.
+Already up to date.
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+[main e5c7893] Sync automatico 12/11/2026 14:25:02,41
+ 4 files changed, 263 insertions(+)
+ create mode 100644 UT4_PHP/practica/docs/Estructura de la Base de Datos academia.docx
+ create mode 100644 UT4_PHP/practica/docs/Practica Tema 4 2627.pdf
+ create mode 100644 UT4_PHP/practica/docs/academia.sql
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+Already up to date.
+Already up to date.
+[main 189040c] Sync automatico 13/11/2026 13:53:01,52
+ 7 files changed, 152 insertions(+)
+ create mode 100644 UT4_PHP/practica/BD/conex.php
+ create mode 100644 UT4_PHP/practica/BD/config.php
+ create mode 100644 UT4_PHP/practica/clases/modeloAdmin.php
+ create mode 100644 UT4_PHP/practica/clases/modeloProfe.php
+ create mode 100644 UT4_PHP/practica/clases/validador.php
+ create mode 100644 UT4_PHP/practica/index.php
+To https://github.com/Carra23/php.git
+   eabbd5f..189040c  main -> main
+[main 55fe7a3] Sync automatico 13/11/2026 14:05:24,10
+ 5 files changed, 20 insertions(+), 8 deletions(-)
+ create mode 100644 UT4_PHP/practica/admin.php
+ create mode 100644 UT4_PHP/practica/profesor.php
+To https://github.com/Carra23/php.git
+   189040c..55fe7a3  main -> main
+[main 9fede20] Sync automatico 13/11/2026 14:05:42,23
+ 1 file changed, 6 insertions(+)
+To https://github.com/Carra23/php.git
+   55fe7a3..9fede20  main -> main
+fatal: bad object refs/heads/main
+error: https://github.com/Carra23/php.git did not send all necessary objects
+fatal: bad object refs/heads/main
+error: failed to perform geometric repack
+error: task 'geometric-repack' failed
+fatal: cannot lock ref 'HEAD': unable to resolve reference 'refs/heads/main': reference broken
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+fatal: cannot lock ref 'HEAD': unable to resolve reference 'refs/heads/main': reference broken
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+
+fatal: bad object refs/heads/main
+error: https://github.com/Carra23/php.git did not send all necessary objects
+fatal: bad object refs/heads/main
+error: failed to perform geometric repack
+error: task 'geometric-repack' failed
+fatal: bad object refs/heads/main
+error: https://github.com/Carra23/php.git did not send all necessary objects
+fatal: bad object refs/heads/main
+error: failed to perform geometric repack
+error: task 'geometric-repack' failed
