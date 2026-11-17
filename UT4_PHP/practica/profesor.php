@@ -143,11 +143,16 @@
             if($modprofe->modificarPerfil($_POST["nombre"], $_POST["apellidos"], $_POST["contraseña"], $profesor->getID())){
                 echo "Curso eliminado con éxito";
             }else{
-                echo "<form id='eliminar' method='post'>
-                    <label for='idcurso'>ID Curso</label>
-                    <input type='number' name='idcurso' id='idcurso' style='width: 130px;' value='" . $_POST['idcurso'] . "'><br>
-                    <button type='submit' name='envcrear' id='enveliminar'>Eliminar</button>
-                </form>";
+                echo "<h2>Si se desea mantener los datos escriba el valor actual</h2>";
+                echo "<form id='modificar' method='post'>
+                        <label for='nombre'>Nombre</label>
+                        <input type='text' name='nombre' id='nombre' style='width: 130px;' value='" . $_POST['nombre'] . "'><br>
+                        <label for='apellidos'>Apellidos</label>
+                        <input type='text' name='apellidos' id='apellidos' style='width: 150px;' value='" . $_POST['apellidos'] . "'><br>
+                        <label for='contraseña'>Contraseña </label>
+                        <input type='password' name='contraseña' id='contraseña' style='width: 100px;' value='" . $_POST['contraseña'] . "'><br>
+                        <button type='submit' name='envmodificar' id='envmodificar'>Modificar</button>
+                    </form>";
 
                 echo "Ha ocurrido un error";
             }
