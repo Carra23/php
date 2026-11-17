@@ -17,7 +17,13 @@
             return $result;
         }
 
-        public function asignarAlumnos(){}
+        public function asignarAlumnos($idalum, $idcurso){
+            $sql = "UPDATE `alumnos` SET `id_curso`=:idcurso WHERE id_alumno = :idalumno";
+            $sql = $this->conexion->getConexion()->prepare($sql);
+            $result = $sql->execute([":idcurso" => $idcurso, ":idalumno" => $idalum]);
+            $sql->closeCursor();
+            return $result;
+        }
 
         public function calificarAlumno(){}
 

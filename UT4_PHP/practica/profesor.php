@@ -25,6 +25,7 @@
     require_once("./clases/ModeloAlumno.php");
     require_once("./clases/ModeloProfe.php");
     session_start();
+    
     $cursos = new ModeloCurso();
     $alumnos = new ModeloAlumno();
     $modprofe = new ModeloProfe();
@@ -74,7 +75,13 @@
 
                 break;
             case 'asignar':
-
+                echo "<form id='asignar' method='post'>
+                        <label for='alumno'>ID Alumno</label>
+                        <input type='number' name='alumno' id='alumno' style='width: 100px;'><br>
+                        <label for='curso'>ID Curso</label>
+                        <input type='number' name='curso' id='curso' style='width: 130px;'><br>
+                        <button type='submit' name='envasignar' id='envasignar'>Añadir</button>
+                    </form>";
                 break;
             case 'eliminar':
                 echo "<form id='eliminar' method='post'>
@@ -102,6 +109,25 @@
             
         }
     }
+
+    if(isset($_POST["envasignar"])){
+        if(isset($_POST["alumno"]) && isset($_POST["curso"])){
+            if($alumnos->asignarAlumnos($_POST['alumno'], $_POST['curso'])){
+                echo "Alumno asignado con éxito";
+            }else{
+                echo "<form id='asignar' method='post'>
+                        <label for='alumno'>ID Alumno</label>
+                        <input type='number' name='alumno' id='alumno' style='width: 100px;' value='" . $_POST['alumno'] . "'><br>
+                        <label for='curso'>ID Curso</label>
+                        <input type='number' name='curso' id='curso' style='width: 130px;' value='" . $_POST['curso'] . "'><br>
+                        <button type='submit' name='envasignar' id='envasignar'>Añadir</button>
+                    </form>";
+
+                echo "Ha ocurrido un error";
+            }
+        }      
+    }
+
     if(isset($_POST["envcrear"])){
         if(isset($_POST["nombre"]) && isset($_POST["descripcion"]) && isset($_POST["duracion"])){
             if($cursos->crearCurso($_POST['nombre'], $_POST['descripcion'], $_POST['duracion'], $profesor->getID())){
