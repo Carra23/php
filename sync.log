@@ -646,3 +646,7 @@ fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve
 fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
 fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
 Already up to date.
+[main 78f02fb] Sync automatico 18/11/2026 14:20:50,14
+ 9 files changed, 543 insertions(+), 17 deletions(-)
+ create mode 100644 UT4_PHP/practica/clases/UserAdmin.php
+fatal: unable to access 'https://github.com/Carra23/php.git/': Failed to connect to github.com:443 after 21118 ms: Could not connect to server
