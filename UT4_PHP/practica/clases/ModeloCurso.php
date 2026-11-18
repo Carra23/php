@@ -26,6 +26,14 @@
             return $result;
         }
 
+        public function asignarProfesor($idprof, $idcurso){
+            $sql = "UPDATE `cursos` SET `id_profesor`=:idprof WHERE id_curso = :idcurso";
+            $sql = $this->conexion->getConexion()->prepare($sql);
+            $result = $sql->execute([":idcurso" => $idcurso, ":idprof" => $idprof]);
+            $sql->closeCursor();
+            return $result;
+        }
+
 
         public function eliminarCurso($id):bool{
             $sql = "DELETE FROM cursos WHERE id_curso = :id";

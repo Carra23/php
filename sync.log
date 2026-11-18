@@ -640,3 +640,9 @@ error: task 'geometric-repack' failed
 To https://github.com/Carra23/php.git
    3947fbc..287ca23  main -> main
 Already up to date.
+[main 0047c3f] Sync automatico 17/11/2026 14:25:06,70
+ 1 file changed, 5 insertions(+)
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/Carra23/php.git/': Could not resolve host: github.com
+Already up to date.

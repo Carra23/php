@@ -15,6 +15,7 @@
             </select>
             <br>
             <button type="submit" name="enviar" id="enviar">Enviar</button>
+            <button type="submit" name="cerrar" id="cerra">Cerrar sesion</button>
         </form>
     </body>
 </html>
@@ -92,7 +93,15 @@
 
                 break;
             case 'calificar':
-
+                echo "<form id='calificar' method='post'>
+                        <label for='idcurso'>ID Curso</label>
+                        <input type='number' name='idcurso' id='idcurso' style='width: 130px;'><br>
+                        <label for='idalumno'>ID Alumno</label>
+                        <input type='number' name='idalumno' id='idalumno' style='width: 130px;'><br>
+                        <label for='nota'>Nota</label>
+                        <input type='number' name='nota' id='nota' style='width: 130px;'><br>
+                        <button type='submit' name='envcali' id='envcali'>Calificar</button>
+                    </form>";
                 break;
             case 'modificar':
                 echo "<h2>Si se desea mantener los datos escriba el valor actual</h2>";
@@ -108,6 +117,11 @@
                 break;
             
         }
+    }
+
+    if(isset($_POST["cerrar"])){
+        $_SESSION['usuario'] = "";
+        header("Location: index.php");
     }
 
     if(isset($_POST["envasignar"])){
@@ -130,7 +144,7 @@
 
     if(isset($_POST["envcrear"])){
         if(isset($_POST["nombre"]) && isset($_POST["descripcion"]) && isset($_POST["duracion"])){
-            if($cursos->crearCurso($_POST['nombre'], $_POST['descripcion'], $_POST['duracion'], $profesor->getID())){
+            if($cursos->crearCurso($_POST['nombre'], $_POST['descripcion'], $_POST['duracion'], $profesor->getId())){
                 echo "Curso añadido con éxito";
             }else{
                 echo "<form id='crear' method='post'>
@@ -163,11 +177,30 @@
             }
         }      
     }
+    if(isset($_POST["envcali"])){
+        if(isset($_POST["idcurso"]) && isset($_POST["idalumno"]) && isset($_POST["nota"])){
+            if($modprofe->calificar($_POST["idcurso"], $_POST["idalumno"], $_POST["nota"])){
+                echo "Alumno calificado correctamente";
+            }else{
+                echo "<form id='calificar' method='post'>
+                        <label for='idcurso'>ID Curso</label>
+                        <input type='number' name='idcurso' id='idcurso' style='width: 130px;' value='" . $_POST['idcurso'] . "'><br>
+                        <label for='idalumno'>ID Alumno</label>
+                        <input type='number' name='idalumno' id='idalumno' style='width: 130px;' value='" . $_POST['idalumno'] . "'><br>
+                        <label for='nota'>Nota</label>
+                        <input type='number' name='nota' id='nota' style='width: 130px;' value='" . $_POST['nota'] . "'><br>
+                        <button type='submit' name='envcali' id='envcali'>Calificar</button>
+                    </form>";
+
+                    echo "Ha ocurrido un error";
+            }
+        }
+    }
 
     if(isset($_POST["envmodificar"])){
         if(isset($_POST["nombre"]) && isset($_POST["apellidos"]) && isset($_POST["contraseña"])){
-            if($modprofe->modificarPerfil($_POST["nombre"], $_POST["apellidos"], $_POST["contraseña"], $profesor->getID())){
-                echo "Curso eliminado con éxito";
+            if($modprofe->modificarPerfil($_POST["nombre"], $_POST["apellidos"], $_POST["contraseña"], $profesor->getId())){
+                echo "Perfil modificado con éxito";
             }else{
                 echo "<h2>Si se desea mantener los datos escriba el valor actual</h2>";
                 echo "<form id='modificar' method='post'>

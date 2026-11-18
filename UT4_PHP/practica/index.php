@@ -20,6 +20,7 @@
     require_once("./BD/conex.php");
     require_once("./clases/ModeloProfe.php");
     require_once("./clases/UserProfe.php");
+    require_once("./clases/UserAdmin.php");
     session_start();
 
     $validador = new validador();
@@ -44,7 +45,15 @@
                     break;
 
                 case "admin":
-                    $_SESSION['username'] = $username;
+                    $modAdmin = new ModeloAdmin();
+                    $admin = new UserAdmin(
+                        $modAdmin->getDatos($username)['id_administrativo'],
+                        $modAdmin->getDatos($username)['nombre'],
+                        $modAdmin->getDatos($username)['apellidos'],
+                        $modAdmin->getDatos($username)['user'],
+                        $modAdmin->getDatos($username)['password'],
+                    );
+                    $_SESSION['usuario'] = $admin;
                     header("Location: admin.php");
                     break;
 
