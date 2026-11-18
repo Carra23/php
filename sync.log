@@ -650,3 +650,7 @@ Already up to date.
  9 files changed, 543 insertions(+), 17 deletions(-)
  create mode 100644 UT4_PHP/practica/clases/UserAdmin.php
 fatal: unable to access 'https://github.com/Carra23/php.git/': Failed to connect to github.com:443 after 21118 ms: Could not connect to server
+[main 1175603] Sync automatico 18/11/2026 14:21:50,16
+ 1 file changed, 4 insertions(+)
+To https://github.com/Carra23/php.git
+   287ca23..1175603  main -> main
