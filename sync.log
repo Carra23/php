@@ -660,3 +660,10 @@ To https://github.com/Carra23/php.git
 fatal: unable to access 'https://github.com/Carra23/php.git/': Failed to connect to github.com:443 after 21080 ms: Could not connect to server
 Already up to date.
 Already up to date.
+[main 3c20b97] Sync automatico 19/11/2026 14:25:01,69
+ 3 files changed, 6 insertions(+), 4 deletions(-)
+ rename UT4_PHP/practica/{BD.zip => PracticaUT4JoseAngelCarralero.zip} (100%)
+To https://github.com/Carra23/php.git
+   1175603..3c20b97  main -> main
+Already up to date.
+Already up to date.
