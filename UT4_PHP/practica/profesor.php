@@ -15,7 +15,7 @@
             </select>
             <br>
             <button type="submit" name="enviar" id="enviar">Enviar</button>
-            <button type="submit" name="cerrar" id="cerra">Cerrar sesion</button>
+            <button type="submit" name="cerrar" id="cerrar">Cerrar sesion</button>
         </form>
     </body>
 </html>

@@ -111,7 +111,7 @@
     }
     
     if(isset($_POST["envcompra"])){
-        if(($_POST["precio"] >= 20000 && $_POST["precio"] <= 30000) && ($_POST["entrada"] >= 10 && $_POST["entrada"] <= 50) && ($_POST["interes"] >= 0.5 && $_POST["interes"] <= 8) && ($_POST["plazo"] >= 5 && $_POST["plazo"] <= 30) && ($_POST["superficiecom"] >= 40 && $_POST["superficiecom"] <= 400)){
+        if(($_POST["precio"] >= 5000 && $_POST["precio"] <= 800000) && ($_POST["entrada"] >= 10 && $_POST["entrada"] <= 50) && ($_POST["interes"] >= 0.5 && $_POST["interes"] <= 8) && ($_POST["plazo"] >= 5 && $_POST["plazo"] <= 30) && ($_POST["superficiecom"] >= 40 && $_POST["superficiecom"] <= 400)){
             $viviendacom = new ViviendaCompra($_POST["precio"], $_POST["entrada"], $_POST["interes"], $_POST["plazo"], $_POST["superficiecom"]);
             $viviendacom->calcularCoste();
             $coleccion->insertar_vivienda($viviendacom);
