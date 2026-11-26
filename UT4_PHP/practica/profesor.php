@@ -161,7 +161,7 @@
             }
         }      
     }
-
+    
     if(isset($_POST["enveliminar"])){
         if(isset($_POST["idcurso"])){
             if($cursos->eliminarCurso($_POST['idcurso'])){
