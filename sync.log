@@ -697,3 +697,13 @@ To https://github.com/Carra23/php.git
    54210e6..0c9121e  main -> main
 Already up to date.
 Already up to date.
+[main 4c059d8] Sync automatico 27/11/2026 14:25:02,48
+ 12 files changed, 335 insertions(+), 67 deletions(-)
+ create mode 100644 UT5/biblioteca27/biblioteca.sql
+ delete mode 100644 UT5/biblioteca27/controller/UsuarioController.php
+ create mode 100644 UT5/biblioteca27/controllers/HomeController.php
+ create mode 100644 UT5/biblioteca27/controllers/UsuarioController.php
+ create mode 100644 UT5/biblioteca27/views/HomeView.php
+ create mode 100644 UT5/biblioteca27/views/UsuariosView.php
+To https://github.com/Carra23/php.git
+   0c9121e..4c059d8  main -> main
