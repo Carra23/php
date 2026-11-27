@@ -1,21 +1,27 @@
 <?php
-    require_once('../config/Conexion.php');
+    require_once 'config/Conexion.php';
     class UsuarioModel{
         private PDO $conexion;
 
-        public function __construct()
-        {
+        public function __construct(){
             $conexion = new Conexion();
             $this->conexion = $conexion->getConexion();
         }
 
-        public function listarUsuarios():array{
-            $sql = "SELECT * FROM usuarios";
-            $sql = $this->conexion->prepare($sql);
-            $sql->execute();
-            $usuarios = $sql->fetchAll(PDO::FETCH_ASSOC);
-            $sql->closeCursor();
+        public function getUsuarios():array{
+            $sql = 'SELECT * FROM usuarios';
+            $stmt = $this->conexion->prepare($sql);
+            $stmt->execute();
+            $usuarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
             return $usuarios;
+        }
+
+        public function getUsuarioID($id):array{
+            $sql = 'SELECT * FROM usuarios WHERE id_usuario = :id';
+            $stmt = $this->conexion->prepare($sql);
+            $stmt->execute([":id" => $id]);
+            $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            return $result;
         }
     }
 ?>
